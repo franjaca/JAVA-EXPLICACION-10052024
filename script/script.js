@@ -383,7 +383,7 @@ console.log("*********************");
 console.log("Inicio");
 let local = 2;
 let visitante = 1;
-if (Local === visitante) {
+if (local === visitante) {
 
     console.log("Hay empate");
     console.log();
@@ -411,6 +411,8 @@ if (local === visitante) {
 
 
 
+let imagen=document.querySelector("#imagen");
+imagen.src="../img/bombilla-on.gif";
 
 
 
