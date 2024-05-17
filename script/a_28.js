@@ -40,6 +40,7 @@ boton.addEventListener("click", function () {
     if (edad < 0 || edad == "") {
 
         msnError = "La edad no es correcta, ingrese una edad correcta";
+        document.querySelector("#edad").value="";
         error = true
     }
 
