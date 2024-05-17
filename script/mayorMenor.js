@@ -41,18 +41,29 @@ boton.addEventListener("click", function () {
             mC.innerHTML = `${n1.value} es mayor que ${n3.value} y ${n2.value} es el menor`;
 
 
-        } else if (+e3.value > +e2.value && +e2.value > +e1.value) { mC.innerHTML = `${n3.value} es mayor que ${n2.value} y ${n1.value} es el menor`; 
-    
-    
-        }else if(+e2.value>+e1.value && +e1.value>+e3.value){  mC.innerHTML = `${n2.value} es mayor que ${n1.value} y ${n3.value} es el menor`;
+        } else if (+e3.value > +e2.value && +e2.value > +e1.value) {
+            mC.innerHTML = `${n3.value} es mayor que ${n2.value} y ${n1.value} es el menor`;
 
 
-        }else if(+e2.value>+e3.value && +e3.value>+e1.value){ mC.innerHTML = `${n2.value} es mayor que ${n3.value} y ${n1.value} es el menor`;
+        } else if (+e2.value > +e1.value && +e1.value > +e3.value) {
+            mC.innerHTML = `${n2.value} es mayor que ${n1.value} y ${n3.value} es el menor`;
+
+
+        } else if (+e2.value > +e3.value && +e3.value > +e1.value) {
+            mC.innerHTML = `${n2.value} es mayor que ${n3.value} y ${n1.value} es el menor`;
 
 
 
-        }else if (+e3.value>+e1.value && +e1.value>+e2.value){mC.innerHTML = `${n3.value} es mayor que ${n1.value} y ${n2.value} es el menor`;
-    }
+        } else if (+e3.value > +e1.value && +e1.value > +e2.value) {
+            mC.innerHTML = `${n3.value} es mayor que ${n1.value} y ${n2.value} es el menor`;
+
+        } else if (e1.value === e2.value && +e1.value>+e3.value){
+            mC.innerHTML = `${n1.value} tiene la misma edad que ${n2.value} y ${n3.value} es el menor`;
+
+        }
+
+
+
 
 
 
