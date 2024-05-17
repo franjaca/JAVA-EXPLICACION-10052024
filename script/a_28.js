@@ -1,4 +1,3 @@
-
 let boton = document.querySelector(".boton");
 //necesitamos que cuando pulse clic en el boton, haga una condición
 //y analice la edad para enviar un mensaje de vuelta
@@ -38,9 +37,3 @@ boton.addEventListener("click", function () {
         document.querySelector(".mensaje").innerHTML = `${nombre} tiene ${edad} años y es ${mensaje}`
     }
 })
-
-
-
-
-
-
