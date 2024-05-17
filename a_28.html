@@ -4,58 +4,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anilisisdelaedad</title>
-
-    <link rel="stylesheet" href="css/responsive.css">
+    <title>Análisis de la edad</title>
+    <link rel="stylesheet" href="css/resposive.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
+<body class="row">
 
-  
-
-        <div class="row col-6">
-
-            <h2><b>Ingreses los siguientes datos: </b></h2>
-            <div class="col-6">
-                <label for="nombre">Nombre</label>
+    <div class="row col-6">
+        <div class="col-12">
+            <h2>Ingrese los siguientes datos:</h2>
+            <div class="row row-columna">
+                <div class="col-6 ">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" class="col-8">
+                </div>
+                <div class="col-6 margin-top-20">
+                    <label for="edad">Edad:</label>
+                    <input type="number" id="edad" name="edad" class="col-2">
+                </div>
             </div>
-
-            <div class="row col-6">
-
-                <input type="text" id="nombre" name="nombre" class="col-8">
-
+            <div class="centrado">
+                <button class="boton margin-top-40">Enviar</button>
             </div>
+            <p class="mensaje margin-top-40"></p>
 
-
-
-
-
-
-            <div class="col-6">
-
-                <label for="edad">Edad:</label>
-            </div>
-            <div>
-
-                <input type="number" id="edad" name="edad" class="col-2">
+            <div class="mensajeError centrado">
 
             </div>
+        </div>
 
-    <div>
 
-        <button class="boton">Enviar</button>
-    </div>
 
 
 
     </div>
 
-    <p class="mensaje"></p>
 
-    <div class="mensajeError centrado"></div>
-    <script src="script/a_28.js"></script>
-
+    <script src="script/a_2_8.js"></script>
 </body>
 
 </html>
