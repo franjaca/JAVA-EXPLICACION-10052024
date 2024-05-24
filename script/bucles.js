@@ -20,6 +20,19 @@ while(x<10){
     y=1;// se inicializa y para que en la proxima vuelta comienza en 1
 }
 
+/****************** */
+/*BUCLE FOR*/
+console.log("***Bucle FOR***");
+for(let x=1;x<10;y++){
+
+    for(let y=1;y<10;y++){
+        console.log(x+"x"+y+"="+(x*y));
+    }
+}
+
+
+
+
 //Random o aleatorio!
 //Array o cadenas de caracteres
 
