@@ -22,15 +22,45 @@ while(x<10){
 
 //Random o aleatorio!
 //Array o cadenas de caracteres
-let abecedario="ABCDEFGHIJKLMNÑOPQRSTUVWXYZ";//abecedario guarda todas las letras que van con un indice desde el 0=A, hasta las 26=Z
 
-let numeroAleatorio=parseInt(Math.random()*26);//numero aleatorio
-console.log(abecedario[numeroAleatorio]);
-let letra="";
-while(letra!=abecedario[numeroAleatorio]){
+// let abecedario="ABCDEFGHIJKLMNÑOPQRSTUVWXYZ";//abecedario guarda todas las letras que van con un indice desde el 0=A, hasta las 26=Z
 
-    letra=prompt("Indica una letra").toUpperCase();
+// let numeroAleatorio=parseInt(Math.random()*26);//numero aleatorio
+// console.log(abecedario[numeroAleatorio]);
+// let letra="";
+// while(letra!=abecedario[numeroAleatorio]){
+
+//     letra=prompt("Indica una letra").toUpperCase();
 
 
-}
-alert ("Adivinaste... es la letra->" + abecedario[numeroAleatorio]);
+// }
+// alert ("Adivinaste... es la letra->" + abecedario[numeroAleatorio]);
+
+/****************** Do While*/
+
+// let contador=0;
+// let numero=1;
+// while(contador<10){
+//     if(numero%2==0){
+//         log.console("Es para!");
+//         console.log(contador);
+//         contador++;
+
+
+//     }
+//     numero++;
+// }
+
+
+//******/
+
+let letra = "";
+
+do{
+   letra=prompt("Indica una letra".toUpperCase);
+
+}while (letra != "S");
+
+   
+
+alert("ENHORABUENA");

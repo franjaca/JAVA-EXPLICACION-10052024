@@ -17,7 +17,8 @@ while (!acertado) {
         alert("Has acertado.....");
         acertado=true;
     }else{
-        alert("No has ")
+        alert("No es numero, intentalo de nuevo ")
     }
+
 
 }
